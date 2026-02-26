@@ -1,0 +1,97 @@
+# Stock Price Prediction System - Backend Dependencies
+# Python 3.8+ required
+
+# =============================================================================
+# CORE WEB FRAMEWORK
+# =============================================================================
+Flask==2.3.3
+Flask-Cors==4.0.0
+Werkzeug==2.3.7
+python-dotenv==1.0.0
+
+# =============================================================================
+# DATA PROCESSING & ANALYSIS
+# =============================================================================
+pandas==2.3.3
+numpy==2.3.3
+scipy==1.16.2
+
+# =============================================================================
+# MACHINE LEARNING LIBRARIES
+# =============================================================================
+# Core ML frameworks
+tensorflow==2.20.0
+scikit-learn==1.5.2
+statsmodels==0.14.4
+joblib==1.4.2
+
+# =============================================================================
+# STOCK DATA FETCHING
+# =============================================================================
+yfinance==0.2.28
+requests==2.31.0
+
+# =============================================================================
+# CURRENCY CONVERSION
+# =============================================================================
+forex-python==1.9.2
+
+# =============================================================================
+# WEB SCRAPING & PARSING
+# =============================================================================
+beautifulsoup4==4.14.2
+lxml==6.0.2
+
+# =============================================================================
+# ERROR HANDLING & RETRY LOGIC
+# =============================================================================
+tenacity==9.1.2
+
+# =============================================================================
+# TESTING FRAMEWORK
+# =============================================================================
+pytest==8.4.2
+pytest-mock==3.15.1
+
+# =============================================================================
+# DEVELOPMENT TOOLS
+# =============================================================================
+black==25.9.0
+flake8==7.3.0
+
+# =============================================================================
+# SYSTEM MONITORING
+# =============================================================================
+psutil==6.1.0
+
+# =============================================================================
+# PYTHON COMPATIBILITY
+# =============================================================================
+importlib-metadata==6.8.0
+
+# =============================================================================
+# INSTALLATION NOTES
+# =============================================================================
+# 
+# Platform-specific installation tips:
+# 
+# Windows:
+#   - Ensure Visual C++ Build Tools are installed
+#   - Use: pip install -r requirements.txt
+# 
+# macOS:
+#   - Install Xcode command line tools: xcode-select --install
+#   - Use: pip3 install -r requirements.txt
+# 
+# Linux (Ubuntu/Debian):
+#   - Install build essentials: sudo apt install build-essential
+#   - Install Python dev headers: sudo apt install python3-dev
+#   - Use: pip3 install -r requirements.txt
+# 
+# If installation fails:
+# 1. Update pip: python -m pip install --upgrade pip
+# 2. Install wheel: pip install wheel
+# 3. Try individual packages if bulk install fails
+# 4. Use virtual environment: python -m venv venv
+# 5. Activate venv before installing: source venv/bin/activate (Linux/Mac) or venv\Scripts\activate (Windows)
+#

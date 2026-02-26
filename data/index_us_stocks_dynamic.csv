@@ -1,0 +1,505 @@
+symbol,company_name,sector,market_cap,headquarters,exchange,currency
+A,Agilent Technologies,Healthcare,,"Santa Clara, California",NYSE,USD
+AAPL,Apple,Technology,,"Cupertino, California",NASDAQ,USD
+ABBV,AbbVie,Healthcare,,"North Chicago, Illinois",NYSE,USD
+ABNB,Airbnb,Consumer Discretionary,,"San Francisco, California",NYSE,USD
+ABT,Abbott Laboratories,Healthcare,,"North Chicago, Illinois",NYSE,USD
+ACGL,Arch Capital Group,Financial,,"Hamilton, Bermuda",NYSE,USD
+ACN,Accenture,Technology,,"Dublin, Ireland",NYSE,USD
+ADBE,Adobe,Technology,,"San Jose, California",NYSE,USD
+ADI,Analog Devices,Technology,,"Wilmington, Massachusetts",NYSE,USD
+ADM,Archer Daniels Midland,Consumer Staples,,"Chicago, Illinois",NYSE,USD
+ADP,Automatic Data Processing,Industrial,,"Roseland, New Jersey",NYSE,USD
+ADSK,Autodesk,Technology,,"San Francisco, California",NYSE,USD
+AEE,Ameren,Utilities,,"St. Louis, Missouri",NYSE,USD
+AEP,American Electric Power,Utilities,,"Columbus, Ohio",NYSE,USD
+AES,AES,Utilities,,"Arlington, Virginia",NYSE,USD
+AFL,Aflac,Financial,,"Columbus, Georgia",NYSE,USD
+AIG,American International Group,Financial,,"New York City, New York",NYSE,USD
+AIZ,Assurant,Financial,,"Atlanta, Georgia",NYSE,USD
+AJG,Arthur J. Gallagher &,Financial,,"Rolling Meadows, Illinois",NYSE,USD
+AKAM,Akamai Technologies,Technology,,"Cambridge, Massachusetts",NYSE,USD
+ALB,Albemarle,Materials,,"Charlotte, North Carolina",NYSE,USD
+ALGN,Align Technology,Healthcare,,"Tempe, Arizona",NYSE,USD
+ALL,Allstate,Financial,,"Northbrook, Illinois",NYSE,USD
+ALLE,Allegion,Industrial,,"Dublin, Ireland",NYSE,USD
+AMAT,Applied Materials,Technology,,"Santa Clara, California",NYSE,USD
+AMCR,Amcor,Materials,,"Warmley, Bristol, United Kingdom",NYSE,USD
+AMD,Advanced Micro Devices,Technology,,"Santa Clara, California",NYSE,USD
+AME,Ametek,Industrial,,"Berwyn, Pennsylvania",NYSE,USD
+AMGN,Amgen,Healthcare,,"Thousand Oaks, California",NYSE,USD
+AMP,Ameriprise Financial,Financial,,"Minneapolis, Minnesota",NYSE,USD
+AMT,American Tower,Real Estate,,"Boston, Massachusetts",NYSE,USD
+AMZN,Amazon,Consumer Discretionary,,"Seattle, Washington",NASDAQ,USD
+ANET,Arista Networks,Technology,,"Santa Clara, California",NYSE,USD
+AON,Aon plc,Financial,,"London, United Kingdom",NYSE,USD
+AOS,A. O. Smith,Industrial,,"Milwaukee, Wisconsin",NYSE,USD
+APA,APA,Energy,,"Houston, Texas",NYSE,USD
+APD,Air Products,Materials,,"Upper Macungie Township, Pennsylvania",NYSE,USD
+APH,Amphenol,Technology,,"Wallingford, Connecticut",NYSE,USD
+APO,Apollo Global Management,Financial,,"New York City, New York",NYSE,USD
+APP,AppLovin,Technology,,"Palo Alto, California",NYSE,USD
+APTV,Aptiv,Consumer Discretionary,,"Dublin, Ireland",NYSE,USD
+ARE,Alexandria Real Estate Equities,Real Estate,,"Pasadena, California",NYSE,USD
+ATO,Atmos Energy,Utilities,,"Dallas, Texas",NYSE,USD
+AVB,AvalonBay Communities,Real Estate,,"Arlington, Virginia",NYSE,USD
+AVGO,Broadcom,Technology,,"Palo Alto, California",NYSE,USD
+AVY,Avery Dennison,Materials,,"Mentor, Ohio",NYSE,USD
+AWK,American Water Works,Utilities,,"Camden, New Jersey",NYSE,USD
+AXON,Axon Enterprise,Industrial,,"Scottsdale, Arizona",NYSE,USD
+AXP,American Express,Financial,,"New York City, New York",NYSE,USD
+AZO,AutoZone,Consumer Discretionary,,"Memphis, Tennessee",NYSE,USD
+BA,Boeing,Industrial,,"Arlington, Virginia",NYSE,USD
+BAC,Bank of America,Financial,,"Charlotte, North Carolina",NYSE,USD
+BALL,Ball,Materials,,"Broomfield, Colorado",NYSE,USD
+BAX,Baxter International,Healthcare,,"Deerfield, Illinois",NYSE,USD
+BBY,Best Buy,Consumer Discretionary,,"Richfield, Minnesota",NYSE,USD
+BDX,Becton Dickinson,Healthcare,,"Franklin Lakes, New Jersey",NYSE,USD
+BEN,Franklin Resources,Financial,,"San Mateo, California",NYSE,USD
+BF,Brown–Forman,Consumer Staples,,"Louisville, Kentucky",NYSE,USD
+BG,Bunge Global,Consumer Staples,,"Chesterfield, Missouri",NYSE,USD
+BIIB,Biogen,Healthcare,,"Cambridge, Massachusetts",NYSE,USD
+BK,BNY Mellon,Financial,,"New York City, New York",NYSE,USD
+BKNG,Booking Holdings,Consumer Discretionary,,"Norwalk, Connecticut",NYSE,USD
+BKR,Baker Hughes,Energy,,"Houston, Texas",NYSE,USD
+BLDR,Builders FirstSource,Industrial,,"Irving, Texas",NYSE,USD
+BLK,BlackRock,Financial,,"New York City, New York",NYSE,USD
+BMY,Bristol Myers Squibb,Healthcare,,"New York City, New York",NYSE,USD
+BR,Broadridge Financial Solutions,Industrial,,"Lake Success, New York",NYSE,USD
+BRK,Berkshire Hathaway,Financial,,"Omaha, Nebraska",NYSE,USD
+BRO,Brown & Brown,Financial,,"Daytona Beach, Florida",NYSE,USD
+BSX,Boston Scientific,Healthcare,,"Marlborough, Massachusetts",NYSE,USD
+BX,Blackstone,Financial,,"New York City, New York",NYSE,USD
+BXP,"BXP,",Real Estate,,"Boston, Massachusetts",NYSE,USD
+C,Citigroup,Financial,,"New York City, New York",NYSE,USD
+CAG,Conagra Brands,Consumer Staples,,"Chicago, Illinois",NYSE,USD
+CAH,Cardinal Health,Healthcare,,"Dublin, Ohio",NYSE,USD
+CARR,Carrier Global,Industrial,,"Palm Beach Gardens, Florida",NYSE,USD
+CAT,Caterpillar,Industrial,,"Irving, Texas",NYSE,USD
+CB,Chubb Limited,Financial,,"Zurich, Switzerland",NYSE,USD
+CBOE,Cboe Global Markets,Financial,,"Chicago, Illinois",NYSE,USD
+CBRE,CBRE Group,Real Estate,,"Dallas, Texas",NYSE,USD
+CCI,Crown Castle,Real Estate,,"Houston, Texas",NYSE,USD
+CCL,Carnival,Consumer Discretionary,,"Miami, Florida",NYSE,USD
+CDNS,Cadence Design Systems,Technology,,"San Jose, California",NYSE,USD
+CDW,CDW,Technology,,"Vernon Hills, Illinois",NYSE,USD
+CEG,Constellation Energy,Utilities,,"Baltimore, Maryland",NYSE,USD
+CF,CF Industries,Materials,,"Deerfield, Illinois",NYSE,USD
+CFG,Citizens Financial Group,Financial,,"Providence, Rhode Island",NYSE,USD
+CHD,Church & Dwight,Consumer Staples,,"Ewing, New Jersey",NYSE,USD
+CHRW,C.H. Robinson,Industrial,,"Eden Prairie, Minnesota",NYSE,USD
+CHTR,Charter Communications,Communication Services,,"Stamford, Connecticut",NYSE,USD
+CI,Cigna,Healthcare,,"Bloomfield, Connecticut",NYSE,USD
+CINF,Cincinnati Financial,Financial,,"Fairfield, Ohio",NYSE,USD
+CL,Colgate-Palmolive,Consumer Staples,,"New York City, New York",NYSE,USD
+CLX,Clorox,Consumer Staples,,"Oakland, California",NYSE,USD
+CMCSA,Comcast,Communication Services,,"Philadelphia, Pennsylvania",NYSE,USD
+CME,CME Group,Financial,,"Chicago, Illinois",NYSE,USD
+CMG,Chipotle Mexican Grill,Consumer Discretionary,,"Newport Beach, California",NYSE,USD
+CMI,Cummins,Industrial,,"Columbus, Indiana",NYSE,USD
+CMS,CMS Energy,Utilities,,"Jackson, Michigan",NYSE,USD
+CNC,Centene,Healthcare,,"St. Louis, Missouri",NYSE,USD
+CNP,CenterPoint Energy,Utilities,,"Houston, Texas",NYSE,USD
+COF,Capital One,Financial,,"Tysons Corner, Virginia",NYSE,USD
+COIN,Coinbase,Financial,,"New York City, New York",NYSE,USD
+COO,Cooper Companies (The),Healthcare,,"San Ramon, California",NYSE,USD
+COP,ConocoPhillips,Energy,,"Houston, Texas",NYSE,USD
+COR,Cencora,Healthcare,,"Conshohocken, Pennsylvania",NYSE,USD
+COST,Costco,Consumer Staples,,"Issaquah, Washington",NYSE,USD
+CPAY,Corpay,Financial,,"Atlanta, Georgia",NYSE,USD
+CPB,Campbell's Company (The),Consumer Staples,,"Camden, New Jersey",NYSE,USD
+CPRT,Copart,Industrial,,"Dallas, Texas",NYSE,USD
+CPT,Camden Property Trust,Real Estate,,"Houston, Texas",NYSE,USD
+CRL,Charles River Laboratories,Healthcare,,"Wilmington, Massachusetts",NYSE,USD
+CRM,Salesforce,Technology,,"San Francisco, California",NYSE,USD
+CRWD,CrowdStrike,Technology,,"Austin, Texas",NYSE,USD
+CSCO,Cisco,Technology,,"San Jose, California",NYSE,USD
+CSGP,CoStar Group,Real Estate,,"Washington, D.C.",NYSE,USD
+CSX,CSX,Industrial,,"Jacksonville, Florida",NYSE,USD
+CTAS,Cintas,Industrial,,"Mason, Ohio",NYSE,USD
+CTRA,Coterra,Energy,,"Houston, Texas",NYSE,USD
+CTSH,Cognizant,Technology,,"Teaneck, New Jersey",NYSE,USD
+CTVA,Corteva,Materials,,"Indianapolis, Indiana",NYSE,USD
+CVS,CVS Health,Healthcare,,"Woonsocket, Rhode Island",NYSE,USD
+CVX,Chevron,Energy,,"Houston, Texas",NYSE,USD
+D,Dominion Energy,Utilities,,"Richmond, Virginia",NYSE,USD
+DAL,Delta Air Lines,Industrial,,"Atlanta, Georgia",NYSE,USD
+DASH,DoorDash,Consumer Discretionary,,"San Francisco, California",NYSE,USD
+DAY,Dayforce,Industrial,,"Minneapolis, Minnesota",NYSE,USD
+DD,DuPont,Materials,,"Wilmington, Delaware",NYSE,USD
+DDOG,Datadog,Technology,,"New York City, New York",NYSE,USD
+DE,Deere &,Industrial,,"Moline, Illinois",NYSE,USD
+DECK,Deckers Brands,Consumer Discretionary,,"Goleta, California",NYSE,USD
+DELL,Dell Technologies,Technology,,"Round Rock, Texas",NYSE,USD
+DG,Dollar General,Consumer Staples,,"Goodlettsville, Tennessee",NYSE,USD
+DGX,Quest Diagnostics,Healthcare,,"Secaucus, New Jersey",NYSE,USD
+DHI,D. R. Horton,Consumer Discretionary,,"Arlington, Texas",NYSE,USD
+DHR,Danaher,Healthcare,,"Washington, D.C.",NYSE,USD
+DIS,Walt Disney Company (The),Communication Services,,"Burbank, California",NYSE,USD
+DLR,Digital Realty,Real Estate,,"Austin, Texas",NYSE,USD
+DLTR,Dollar Tree,Consumer Staples,,"Chesapeake, Virginia",NYSE,USD
+DOC,Healthpeak Properties,Real Estate,,"Denver, Colorado",NYSE,USD
+DOV,Dover,Industrial,,"Downers Grove, Illinois",NYSE,USD
+DOW,Dow,Materials,,"Midland, Michigan",NYSE,USD
+DPZ,Domino's,Consumer Discretionary,,"Ann Arbor, Michigan",NYSE,USD
+DRI,Darden Restaurants,Consumer Discretionary,,"Orlando, Florida",NYSE,USD
+DTE,DTE Energy,Utilities,,"Detroit, Michigan",NYSE,USD
+DUK,Duke Energy,Utilities,,"Charlotte, North Carolina",NYSE,USD
+DVA,DaVita,Healthcare,,"Denver, Colorado",NYSE,USD
+DVN,Devon Energy,Energy,,"Oklahoma City, Oklahoma",NYSE,USD
+DXCM,Dexcom,Healthcare,,"San Diego, California",NYSE,USD
+EA,Electronic Arts,Communication Services,,"Redwood City, California",NYSE,USD
+EBAY,eBay,Consumer Discretionary,,"San Jose, California",NYSE,USD
+ECL,Ecolab,Materials,,"Saint Paul, Minnesota",NYSE,USD
+ED,Consolidated Edison,Utilities,,"New York City, New York",NYSE,USD
+EFX,Equifax,Industrial,,"Atlanta, Georgia",NYSE,USD
+EG,Everest Group,Financial,,"Hamilton, Bermuda",NYSE,USD
+EIX,Edison International,Utilities,,"Rosemead, California",NYSE,USD
+EL,Estée Lauder Companies (The),Consumer Staples,,"New York City, New York",NYSE,USD
+ELV,Elevance Health,Healthcare,,"Indianapolis, Indiana",NYSE,USD
+EME,Emcor,Industrial,,"Norwalk, Connecticut",NYSE,USD
+EMN,Eastman Chemical,Materials,,"Kingsport, Tennessee",NYSE,USD
+EMR,Emerson Electric,Industrial,,"Ferguson, Missouri",NYSE,USD
+EOG,EOG Resources,Energy,,"Houston, Texas",NYSE,USD
+EPAM,EPAM Systems,Technology,,"Newtown, Pennsylvania",NYSE,USD
+EQIX,Equinix,Real Estate,,"Redwood City, California",NYSE,USD
+EQR,Equity Residential,Real Estate,,"Chicago, Illinois",NYSE,USD
+EQT,EQT,Energy,,"Pittsburgh, Pennsylvania",NYSE,USD
+ERIE,Erie Indemnity,Financial,,"Erie, Pennsylvania",NYSE,USD
+ES,Eversource Energy,Utilities,,"Hartford, Connecticut",NYSE,USD
+ESS,Essex Property Trust,Real Estate,,"San Mateo, California",NYSE,USD
+ETN,Eaton,Industrial,,"Dublin, Ireland",NYSE,USD
+ETR,Entergy,Utilities,,"New Orleans, Louisiana",NYSE,USD
+EVRG,Evergy,Utilities,,"Kansas City, Missouri",NYSE,USD
+EW,Edwards Lifesciences,Healthcare,,"Irvine, California",NYSE,USD
+EXC,Exelon,Utilities,,"Chicago, Illinois",NYSE,USD
+EXE,Expand Energy,Energy,,"Oklahoma City, Oklahoma",NYSE,USD
+EXPD,Expeditors International,Industrial,,"Seattle, Washington",NYSE,USD
+EXPE,Expedia Group,Consumer Discretionary,,"Seattle, Washington",NYSE,USD
+EXR,Extra Space Storage,Real Estate,,"Salt Lake City, Utah",NYSE,USD
+F,Ford Motor,Consumer Discretionary,,"Dearborn, Michigan",NYSE,USD
+FANG,Diamondback Energy,Energy,,"Midland, Texas",NYSE,USD
+FAST,Fastenal,Industrial,,"Winona, Minnesota",NYSE,USD
+FCX,Freeport-McMoRan,Materials,,"Phoenix, Arizona",NYSE,USD
+FDS,FactSet,Financial,,"Norwalk, Connecticut",NYSE,USD
+FDX,FedEx,Industrial,,"Memphis, Tennessee",NYSE,USD
+FE,FirstEnergy,Utilities,,"Akron, Ohio",NYSE,USD
+FFIV,"F5,",Technology,,"Seattle, Washington",NYSE,USD
+FI,Fiserv,Financial,,"Brookfield, Wisconsin",NYSE,USD
+FICO,Fair Isaac,Technology,,"Bozeman, Montana",NYSE,USD
+FIS,Fidelity National Information Services,Financial,,"Jacksonville, Florida",NYSE,USD
+FITB,Fifth Third Bancorp,Financial,,"Cincinnati, Ohio",NYSE,USD
+FOX,Fox Corporation (Class B),Communication Services,,"New York City, New York",NYSE,USD
+FOXA,Fox Corporation (Class A),Communication Services,,"New York City, New York",NYSE,USD
+FRT,Federal Realty Investment Trust,Real Estate,,"Rockville, Maryland",NYSE,USD
+FSLR,First Solar,Technology,,"Tempe, Arizona",NYSE,USD
+FTNT,Fortinet,Technology,,"Sunnyvale, California",NYSE,USD
+FTV,Fortive,Industrial,,"Everett, Washington",NYSE,USD
+GD,General Dynamics,Industrial,,"Falls Church, Virginia",NYSE,USD
+GDDY,GoDaddy,Technology,,"Tempe, Arizona",NYSE,USD
+GE,GE Aerospace,Industrial,,"Evendale, Ohio",NYSE,USD
+GEHC,GE HealthCare,Healthcare,,"Chicago, Illinois",NYSE,USD
+GEN,Gen Digital,Technology,,"Tempe, Arizona",NYSE,USD
+GEV,GE Vernova,Industrial,,"Cambridge, Massachusetts",NYSE,USD
+GILD,Gilead Sciences,Healthcare,,"Foster City, California",NYSE,USD
+GIS,General Mills,Consumer Staples,,"Golden Valley, Minnesota",NYSE,USD
+GL,Globe Life,Financial,,"McKinney, Texas",NYSE,USD
+GLW,Corning,Technology,,"Corning, New York",NYSE,USD
+GM,General Motors,Consumer Discretionary,,"Detroit, Michigan",NYSE,USD
+GNRC,Generac,Industrial,,"Waukesha, Wisconsin",NYSE,USD
+GOOG,Alphabet Inc. (Class C),Communication Services,,"Mountain View, California",NYSE,USD
+GOOGL,Alphabet Inc. (Class A),Communication Services,,"Mountain View, California",NASDAQ,USD
+GPC,Genuine Parts,Consumer Discretionary,,"Atlanta, Georgia",NYSE,USD
+GPN,Global Payments,Financial,,"Atlanta, Georgia",NYSE,USD
+GRMN,Garmin,Consumer Discretionary,,"Schaffhausen, Switzerland",NYSE,USD
+GS,Goldman Sachs,Financial,,"New York City, New York",NYSE,USD
+GWW,W. W. Grainger,Industrial,,"Lake Forest, Illinois",NYSE,USD
+HAL,Halliburton,Energy,,"Houston, Texas",NYSE,USD
+HAS,Hasbro,Consumer Discretionary,,"Pawtucket, Rhode Island",NYSE,USD
+HBAN,Huntington Bancshares,Financial,,"Columbus, Ohio; Detroit, Michigan",NYSE,USD
+HCA,HCA Healthcare,Healthcare,,"Nashville, Tennessee",NYSE,USD
+HD,Home Depot (The),Consumer Discretionary,,"Atlanta, Georgia",NYSE,USD
+HIG,Hartford (The),Financial,,"Hartford, Connecticut",NYSE,USD
+HII,Huntington Ingalls Industries,Industrial,,"Newport News, Virginia",NYSE,USD
+HLT,Hilton Worldwide,Consumer Discretionary,,"Tysons Corner, Virginia",NYSE,USD
+HOLX,Hologic,Healthcare,,"Marlborough, Massachusetts",NYSE,USD
+HON,Honeywell,Industrial,,"Charlotte, North Carolina",NYSE,USD
+HOOD,Robinhood Markets,Financial,,"Menlo Park, California",NYSE,USD
+HPE,Hewlett Packard Enterprise,Technology,,"Houston, Texas",NYSE,USD
+HPQ,HP,Technology,,"Palo Alto, California",NYSE,USD
+HRL,Hormel Foods,Consumer Staples,,"Austin, Minnesota",NYSE,USD
+HSIC,Henry Schein,Healthcare,,"Melville, New York",NYSE,USD
+HST,Host Hotels & Resorts,Real Estate,,"Bethesda, Maryland",NYSE,USD
+HSY,Hershey Company (The),Consumer Staples,,"Hershey, Pennsylvania",NYSE,USD
+HUBB,Hubbell Incorporated,Industrial,,"Shelton, Connecticut",NYSE,USD
+HUM,Humana,Healthcare,,"Louisville, Kentucky",NYSE,USD
+HWM,Howmet Aerospace,Industrial,,"Pittsburgh, Pennsylvania",NYSE,USD
+IBKR,Interactive Brokers,Financial,,"Greenwich, Connecticut",NYSE,USD
+IBM,IBM,Technology,,"Armonk, New York",NYSE,USD
+ICE,Intercontinental Exchange,Financial,,"Atlanta, Georgia",NYSE,USD
+IDXX,Idexx Laboratories,Healthcare,,"Westbrook, Maine",NYSE,USD
+IEX,IDEX,Industrial,,"Northbrook, Illinois",NYSE,USD
+IFF,International Flavors & Fragrances,Materials,,"New York City, New York",NYSE,USD
+INCY,Incyte,Healthcare,,"Wilmington, Delaware",NYSE,USD
+INTC,Intel,Technology,,"Santa Clara, California",NYSE,USD
+INTU,Intuit,Technology,,"Mountain View, California",NYSE,USD
+INVH,Invitation Homes,Real Estate,,"Dallas, Texas",NYSE,USD
+IP,International Paper,Materials,,"Memphis, Tennessee",NYSE,USD
+IPG,Interpublic Group of Companies (The),Communication Services,,"New York City, New York",NYSE,USD
+IQV,IQVIA,Healthcare,,"Durham, North Carolina",NYSE,USD
+IR,Ingersoll Rand,Industrial,,"Davidson, North Carolina",NYSE,USD
+IRM,Iron Mountain,Real Estate,,"Portsmouth, New Hampshire",NYSE,USD
+ISRG,Intuitive Surgical,Healthcare,,"Sunnyvale, California",NYSE,USD
+IT,Gartner,Technology,,"Stamford, Connecticut",NYSE,USD
+ITW,Illinois Tool Works,Industrial,,"Glenview, Illinois",NYSE,USD
+IVZ,Invesco,Financial,,"Atlanta, Georgia",NYSE,USD
+J,Jacobs Solutions,Industrial,,"Dallas, Texas",NYSE,USD
+JBHT,J.B. Hunt,Industrial,,"Lowell, Arkansas",NYSE,USD
+JBL,Jabil,Technology,,"St. Petersburg, Florida",NYSE,USD
+JCI,Johnson Controls,Industrial,,"Cork, Ireland",NYSE,USD
+JKHY,Jack Henry & Associates,Financial,,"Monett, Missouri",NYSE,USD
+JNJ,Johnson & Johnson,Healthcare,,"New Brunswick, New Jersey",NYSE,USD
+JPM,JPMorgan Chase,Financial,,"New York City, New York",NYSE,USD
+K,Kellanova,Consumer Staples,,"Chicago, Illinois",NYSE,USD
+KDP,Keurig Dr Pepper,Consumer Staples,,"Burlington, Massachusetts",NYSE,USD
+KEY,KeyCorp,Financial,,"Cleveland, Ohio",NYSE,USD
+KEYS,Keysight Technologies,Technology,,"Santa Rosa, California",NYSE,USD
+KHC,Kraft Heinz,Consumer Staples,,"Chicago, Illinois; Pittsburgh, Pennsylvania",NYSE,USD
+KIM,Kimco Realty,Real Estate,,"Jericho, New York",NYSE,USD
+KKR,KKR &,Financial,,"New York City, New York",NYSE,USD
+KLAC,KLA,Technology,,"Milpitas, California",NYSE,USD
+KMB,Kimberly-Clark,Consumer Staples,,"Irving, Texas",NYSE,USD
+KMI,Kinder Morgan,Energy,,"Houston, Texas",NYSE,USD
+KMX,CarMax,Consumer Discretionary,,"Richmond, Virginia",NYSE,USD
+KO,Coca-Cola Company (The),Consumer Staples,,"Atlanta, Georgia",NYSE,USD
+KR,Kroger,Consumer Staples,,"Cincinnati, Ohio",NYSE,USD
+KVUE,Kenvue,Consumer Staples,,"Skillman, New Jersey",NYSE,USD
+L,Loews,Financial,,"New York City, New York",NYSE,USD
+LDOS,Leidos,Industrial,,"Reston, Virginia",NYSE,USD
+LEN,Lennar,Consumer Discretionary,,"Miami, Florida",NYSE,USD
+LH,Labcorp,Healthcare,,"Burlington, North Carolina",NYSE,USD
+LHX,L3Harris,Industrial,,"Melbourne, Florida",NYSE,USD
+LII,Lennox International,Industrial,,"Richardson, Texas",NYSE,USD
+LIN,Linde plc,Materials,,"Guildford, United Kingdom",NYSE,USD
+LKQ,LKQ,Consumer Discretionary,,"Nashville, Tennessee",NYSE,USD
+LLY,Lilly (Eli),Healthcare,,"Indianapolis, Indiana",NYSE,USD
+LMT,Lockheed Martin,Industrial,,"Bethesda, Maryland",NYSE,USD
+LNT,Alliant Energy,Utilities,,"Madison, Wisconsin",NYSE,USD
+LOW,Lowe's,Consumer Discretionary,,"Mooresville, North Carolina",NYSE,USD
+LRCX,Lam Research,Technology,,"Fremont, California",NYSE,USD
+LULU,Lululemon Athletica,Consumer Discretionary,,"Vancouver, Canada",NYSE,USD
+LUV,Southwest Airlines,Industrial,,"Dallas, Texas",NYSE,USD
+LVS,Las Vegas Sands,Consumer Discretionary,,"Las Vegas, Nevada",NYSE,USD
+LW,Lamb Weston,Consumer Staples,,"Eagle, Idaho",NYSE,USD
+LYB,LyondellBasell,Materials,,"Rotterdam, Netherlands",NYSE,USD
+LYV,Live Nation Entertainment,Communication Services,,"Beverly Hills, California",NYSE,USD
+MA,Mastercard,Financial,,"Harrison, New York",NYSE,USD
+MAA,Mid-America Apartment Communities,Real Estate,,"Memphis, Tennessee",NYSE,USD
+MAR,Marriott International,Consumer Discretionary,,"Bethesda, Maryland",NYSE,USD
+MAS,Masco,Industrial,,"Livonia, Michigan",NYSE,USD
+MCD,McDonald's,Consumer Discretionary,,"Chicago, Illinois",NYSE,USD
+MCHP,Microchip Technology,Technology,,"Chandler, Arizona",NYSE,USD
+MCK,McKesson,Healthcare,,"Irving, Texas",NYSE,USD
+MCO,Moody's,Financial,,"New York City, New York",NYSE,USD
+MDLZ,Mondelez International,Consumer Staples,,"Chicago, Illinois",NYSE,USD
+MDT,Medtronic,Healthcare,,"Dublin, Ireland",NYSE,USD
+MET,MetLife,Financial,,"New York City, New York",NYSE,USD
+META,Meta Platforms,Communication Services,,"Menlo Park, California",NASDAQ,USD
+MGM,MGM Resorts,Consumer Discretionary,,"Paradise, Nevada",NYSE,USD
+MHK,Mohawk Industries,Consumer Discretionary,,"Calhoun, Georgia",NYSE,USD
+MKC,McCormick &,Consumer Staples,,"Hunt Valley, Maryland",NYSE,USD
+MLM,Martin Marietta Materials,Materials,,"Raleigh, North Carolina",NYSE,USD
+MMC,Marsh McLennan,Financial,,"New York City, New York",NYSE,USD
+MMM,3M,Industrial,,"Saint Paul, Minnesota",NYSE,USD
+MNST,Monster Beverage,Consumer Staples,,"Corona, California",NYSE,USD
+MO,Altria,Consumer Staples,,"Richmond, Virginia",NYSE,USD
+MOH,Molina Healthcare,Healthcare,,"Long Beach, California",NYSE,USD
+MOS,Mosaic Company (The),Materials,,"Tampa, Florida",NYSE,USD
+MPC,Marathon Petroleum,Energy,,"Findlay, Ohio",NYSE,USD
+MPWR,Monolithic Power Systems,Technology,,"Kirkland, Washington",NYSE,USD
+MRK,Merck &,Healthcare,,"Kenilworth, New Jersey",NYSE,USD
+MRNA,Moderna,Healthcare,,"Cambridge, Massachusetts",NYSE,USD
+MS,Morgan Stanley,Financial,,"New York City, New York",NYSE,USD
+MSCI,MSCI,Financial,,"New York City, New York",NYSE,USD
+MSFT,Microsoft,Technology,,"Redmond, Washington",NASDAQ,USD
+MSI,Motorola Solutions,Technology,,"Chicago, Illinois",NYSE,USD
+MTB,M&T Bank,Financial,,"Buffalo, New York",NYSE,USD
+MTCH,Match Group,Communication Services,,"Dallas, Texas",NYSE,USD
+MTD,Mettler Toledo,Healthcare,,"Columbus, Ohio",NYSE,USD
+MU,Micron Technology,Technology,,"Boise, Idaho",NYSE,USD
+NCLH,Norwegian Cruise Line Holdings,Consumer Discretionary,,"Miami, Florida",NYSE,USD
+NDAQ,"Nasdaq,",Financial,,"New York City, New York",NYSE,USD
+NDSN,Nordson,Industrial,,"Westlake, Ohio",NYSE,USD
+NEE,NextEra Energy,Utilities,,"Juno Beach, Florida",NYSE,USD
+NEM,Newmont,Materials,,"Denver, Colorado",NYSE,USD
+NFLX,Netflix,Communication Services,,"Los Gatos, California",NYSE,USD
+NI,NiSource,Utilities,,"Merrillville, Indiana",NYSE,USD
+NKE,"Nike,",Consumer Discretionary,,"Washington County, Oregon",NYSE,USD
+NOC,Northrop Grumman,Industrial,,"West Falls Church, Virginia",NYSE,USD
+NOW,ServiceNow,Technology,,"Santa Clara, California",NYSE,USD
+NRG,NRG Energy,Utilities,,"Houston, Texas",NYSE,USD
+NSC,Norfolk Southern,Industrial,,"Atlanta, Georgia",NYSE,USD
+NTAP,NetApp,Technology,,"San Jose, California",NYSE,USD
+NTRS,Northern Trust,Financial,,"Chicago, Illinois",NYSE,USD
+NUE,Nucor,Materials,,"Charlotte, North Carolina",NYSE,USD
+NVDA,Nvidia,Technology,,"Santa Clara, California",NASDAQ,USD
+NVR,"NVR,",Consumer Discretionary,,"Reston, Virginia",NYSE,USD
+NWS,News Corp (Class B),Communication Services,,"New York City, New York",NYSE,USD
+NWSA,News Corp (Class A),Communication Services,,"New York City, New York",NYSE,USD
+NXPI,NXP Semiconductors,Technology,,"Eindhoven, Netherlands",NYSE,USD
+O,Realty Income,Real Estate,,"San Diego, California",NYSE,USD
+ODFL,Old Dominion,Industrial,,"Thomasville, North Carolina",NYSE,USD
+OKE,Oneok,Energy,,"Tulsa, Oklahoma",NYSE,USD
+OMC,Omnicom Group,Communication Services,,"New York City, New York",NYSE,USD
+ON,ON Semiconductor,Technology,,"Phoenix, Arizona",NYSE,USD
+ORCL,Oracle,Technology,,"Austin, Texas",NYSE,USD
+ORLY,O’Reilly Automotive,Consumer Discretionary,,"Springfield, Missouri",NYSE,USD
+OTIS,Otis Worldwide,Industrial,,"Farmington, Connecticut",NYSE,USD
+OXY,Occidental Petroleum,Energy,,"Houston, Texas",NYSE,USD
+PANW,Palo Alto Networks,Technology,,"Santa Clara, California",NYSE,USD
+PAYC,Paycom,Industrial,,"Oklahoma City, Oklahoma",NYSE,USD
+PAYX,Paychex,Industrial,,"Penfield, New York",NYSE,USD
+PCAR,Paccar,Industrial,,"Bellevue, Washington",NYSE,USD
+PCG,PG&E,Utilities,,"Oakland, California",NYSE,USD
+PEG,Public Service Enterprise Group,Utilities,,"Newark, New Jersey",NYSE,USD
+PEP,PepsiCo,Consumer Staples,,"Purchase, New York",NYSE,USD
+PFE,Pfizer,Healthcare,,"New York City, New York",NYSE,USD
+PFG,Principal Financial Group,Financial,,"Des Moines, Iowa",NYSE,USD
+PG,Procter & Gamble,Consumer Staples,,"Cincinnati, Ohio",NYSE,USD
+PGR,Progressive,Financial,,"Mayfield Village, Ohio",NYSE,USD
+PH,Parker Hannifin,Industrial,,"Cleveland, Ohio",NYSE,USD
+PHM,PulteGroup,Consumer Discretionary,,"Atlanta, Georgia",NYSE,USD
+PKG,Packaging Corporation of America,Materials,,"Lake Forest, Illinois",NYSE,USD
+PLD,Prologis,Real Estate,,"San Francisco, California",NYSE,USD
+PLTR,Palantir Technologies,Technology,,"Denver, Colorado",NYSE,USD
+PM,Philip Morris International,Consumer Staples,,"New York City, New York",NYSE,USD
+PNC,PNC Financial Services,Financial,,"Pittsburgh, Pennsylvania",NYSE,USD
+PNR,Pentair,Industrial,,"Worsley, United Kingdom",NYSE,USD
+PNW,Pinnacle West Capital,Utilities,,"Phoenix, Arizona",NYSE,USD
+PODD,Insulet,Healthcare,,"Acton, Massachusetts",NYSE,USD
+POOL,Pool,Consumer Discretionary,,"Covington, Louisiana",NYSE,USD
+PPG,PPG Industries,Materials,,"Pittsburgh, Pennsylvania",NYSE,USD
+PPL,PPL,Utilities,,"Allentown, Pennsylvania",NYSE,USD
+PRU,Prudential Financial,Financial,,"Newark, New Jersey",NYSE,USD
+PSA,Public Storage,Real Estate,,"Glendale, California",NYSE,USD
+PSKY,Paramount Skydance,Communication Services,,"Los Angeles, California",NYSE,USD
+PSX,Phillips 66,Energy,,"Houston, Texas",NYSE,USD
+PTC,PTC,Technology,,"Boston, Massachusetts",NYSE,USD
+PWR,Quanta Services,Industrial,,"Houston, Texas",NYSE,USD
+PYPL,PayPal,Financial,,"San Jose, California",NYSE,USD
+QCOM,Qualcomm,Technology,,"San Diego, California",NYSE,USD
+RCL,Royal Caribbean Group,Consumer Discretionary,,"Miami, Florida",NYSE,USD
+REG,Regency Centers,Real Estate,,"Jacksonville, Florida",NYSE,USD
+REGN,Regeneron Pharmaceuticals,Healthcare,,"Tarrytown, New York",NYSE,USD
+RF,Regions Financial,Financial,,"Birmingham, Alabama",NYSE,USD
+RJF,Raymond James Financial,Financial,,"St. Petersburg, Florida",NYSE,USD
+RL,Ralph Lauren,Consumer Discretionary,,"New York City, New York",NYSE,USD
+RMD,ResMed,Healthcare,,"San Diego, California",NYSE,USD
+ROK,Rockwell Automation,Industrial,,"Milwaukee, Wisconsin",NYSE,USD
+ROL,"Rollins,",Industrial,,"Atlanta, Georgia",NYSE,USD
+ROP,Roper Technologies,Technology,,"Sarasota, Florida",NYSE,USD
+ROST,Ross Stores,Consumer Discretionary,,"Dublin, California",NYSE,USD
+RSG,Republic Services,Industrial,,"Phoenix, Arizona",NYSE,USD
+RTX,RTX,Industrial,,"Waltham, Massachusetts",NYSE,USD
+RVTY,Revvity,Healthcare,,"Waltham, Massachusetts",NYSE,USD
+SBAC,SBA Communications,Real Estate,,"Boca Raton, Florida",NYSE,USD
+SBUX,Starbucks,Consumer Discretionary,,"Seattle, Washington",NYSE,USD
+SCHW,Charles Schwab,Financial,,"Westlake, Texas",NYSE,USD
+SHW,Sherwin-Williams,Materials,,"Cleveland, Ohio",NYSE,USD
+SJM,J.M. Smucker Company (The),Consumer Staples,,"Orrville, Ohio",NYSE,USD
+SLB,Schlumberger,Energy,,"Houston, Texas",NYSE,USD
+SMCI,Supermicro,Technology,,"San Jose, California",NYSE,USD
+SNA,Snap-on,Industrial,,"Kenosha, Wisconsin",NYSE,USD
+SNPS,Synopsys,Technology,,"Sunnyvale, California",NYSE,USD
+SO,Southern,Utilities,,"Atlanta, Georgia",NYSE,USD
+SOLV,Solventum,Healthcare,,"Saint Paul, Minnesota",NYSE,USD
+SPG,Simon Property Group,Real Estate,,"Indianapolis, Indiana",NYSE,USD
+SPGI,S&P Global,Financial,,"New York City, New York",NYSE,USD
+SRE,Sempra,Utilities,,"San Diego, California",NYSE,USD
+STE,Steris,Healthcare,,"Dublin, Ireland",NYSE,USD
+STLD,Steel Dynamics,Materials,,"Fort Wayne, Indiana",NYSE,USD
+STT,State Street,Financial,,"Boston, Massachusetts",NYSE,USD
+STX,Seagate Technology,Technology,,"Dublin, Ireland",NYSE,USD
+STZ,Constellation Brands,Consumer Staples,,"Rochester, New York",NYSE,USD
+SW,Smurfit Westrock,Materials,,"Dublin, Ireland",NYSE,USD
+SWK,Stanley Black & Decker,Industrial,,"New Britain, Connecticut",NYSE,USD
+SWKS,Skyworks Solutions,Technology,,"Irvine, California",NYSE,USD
+SYF,Synchrony Financial,Financial,,"Stamford, Connecticut",NYSE,USD
+SYK,Stryker,Healthcare,,"Kalamazoo, Michigan",NYSE,USD
+SYY,Sysco,Consumer Staples,,"Houston, Texas",NYSE,USD
+T,AT&T,Communication Services,,"Dallas, Texas",NYSE,USD
+TAP,Molson Coors Beverage,Consumer Staples,,"Chicago, Illinois",NYSE,USD
+TDG,TransDigm Group,Industrial,,"Cleveland, Ohio",NYSE,USD
+TDY,Teledyne Technologies,Technology,,"Thousand Oaks, California",NYSE,USD
+TECH,Bio-Techne,Healthcare,,"Minneapolis, Minnesota",NYSE,USD
+TEL,TE Connectivity,Technology,,"Galway, Ireland",NYSE,USD
+TER,Teradyne,Technology,,"North Reading, Massachusetts",NYSE,USD
+TEST123,Test Company Inc,Technology,Small Cap,"Test City, California",NYSE,USD
+TFC,Truist Financial,Financial,,"Charlotte, North Carolina",NYSE,USD
+TGT,Target,Consumer Staples,,"Minneapolis, Minnesota",NYSE,USD
+TJX,TJX Companies,Consumer Discretionary,,"Framingham, Massachusetts",NYSE,USD
+TKO,TKO Group Holdings,Communication Services,,"New York City, New York",NYSE,USD
+TMO,Thermo Fisher Scientific,Healthcare,,"Waltham, Massachusetts",NYSE,USD
+TMUS,T-Mobile US,Communication Services,,"Bellevue, Washington",NYSE,USD
+TPL,Texas Pacific Land,Energy,,"Dallas, Texas",NYSE,USD
+TPR,"Tapestry,",Consumer Discretionary,,"New York City, New York",NYSE,USD
+TRGP,Targa Resources,Energy,,"Houston, Texas",NYSE,USD
+TRMB,Trimble,Technology,,"Westminster, Colorado",NYSE,USD
+TROW,T. Rowe Price,Financial,,"Baltimore, Maryland",NYSE,USD
+TRV,Travelers Companies (The),Financial,,"New York City, New York",NYSE,USD
+TSCO,Tractor Supply,Consumer Discretionary,,"Brentwood, Tennessee",NYSE,USD
+TSLA,"Tesla,",Consumer Discretionary,,"Austin, Texas",NASDAQ,USD
+TSN,Tyson Foods,Consumer Staples,,"Springdale, Arkansas",NYSE,USD
+TT,Trane Technologies,Industrial,,"Dublin, Ireland",NYSE,USD
+TTD,Trade Desk (The),Communication Services,,"Ventura, California",NYSE,USD
+TTWO,Take-Two Interactive,Communication Services,,"New York City, New York",NYSE,USD
+TXN,Texas Instruments,Technology,,"Dallas, Texas",NYSE,USD
+TXT,Textron,Industrial,,"Providence, Rhode Island",NYSE,USD
+TYL,Tyler Technologies,Technology,,"Plano, Texas",NYSE,USD
+UAL,United Airlines Holdings,Industrial,,"Chicago, Illinois",NYSE,USD
+UBER,Uber,Industrial,,"San Francisco, California",NYSE,USD
+UDR,"UDR,",Real Estate,,"Highlands Ranch, Colorado",NYSE,USD
+UHS,Universal Health Services,Healthcare,,"King of Prussia, Pennsylvania",NYSE,USD
+ULTA,Ulta Beauty,Consumer Discretionary,,"Bolingbrook, Illinois",NYSE,USD
+UNH,UnitedHealth Group,Healthcare,,"Eden Prairie, Minnesota",NYSE,USD
+UNP,Union Pacific,Industrial,,"Omaha, Nebraska",NYSE,USD
+UPS,United Parcel Service,Industrial,,"Sandy Springs, Georgia",NYSE,USD
+URI,United Rentals,Industrial,,"Stamford, Connecticut",NYSE,USD
+USB,U.S. Bancorp,Financial,,"Minneapolis, Minnesota",NYSE,USD
+V,Visa,Financial,,"San Francisco, California",NYSE,USD
+VICI,Vici Properties,Real Estate,,"New York City, New York",NYSE,USD
+VLO,Valero Energy,Energy,,"San Antonio, Texas",NYSE,USD
+VLTO,Veralto,Industrial,,"Waltham, Massachusetts",NYSE,USD
+VMC,Vulcan Materials,Materials,,"Birmingham, Alabama",NYSE,USD
+VRSK,Verisk Analytics,Industrial,,"Jersey City, New Jersey",NYSE,USD
+VRSN,Verisign,Technology,,"Reston, Virginia",NYSE,USD
+VRTX,Vertex Pharmaceuticals,Healthcare,,"Boston, Massachusetts",NYSE,USD
+VST,Vistra,Utilities,,"Irving, Texas",NYSE,USD
+VTR,Ventas,Real Estate,,"Chicago, Illinois",NYSE,USD
+VTRS,Viatris,Healthcare,,"Pittsburgh, Pennsylvania",NYSE,USD
+VZ,Verizon,Communication Services,,"New York City, New York",NYSE,USD
+WAB,Wabtec,Industrial,,"Pittsburgh, Pennsylvania",NYSE,USD
+WAT,Waters,Healthcare,,"Milford, Massachusetts",NYSE,USD
+WBD,Warner Bros. Discovery,Communication Services,,"New York City, New York",NYSE,USD
+WDAY,"Workday,",Technology,,"Pleasanton, California",NYSE,USD
+WDC,Western Digital,Technology,,"San Jose, California",NYSE,USD
+WEC,WEC Energy Group,Utilities,,"Milwaukee, Wisconsin",NYSE,USD
+WELL,Welltower,Real Estate,,"Toledo, Ohio",NYSE,USD
+WFC,Wells Fargo,Financial,,"San Francisco, California",NYSE,USD
+WM,Waste Management,Industrial,,"Houston, Texas",NYSE,USD
+WMB,Williams Companies,Energy,,"Tulsa, Oklahoma",NYSE,USD
+WMT,Walmart,Consumer Staples,,"Bentonville, Arkansas",NYSE,USD
+WRB,W. R. Berkley,Financial,,"Greenwich, Connecticut",NYSE,USD
+WSM,"Williams-Sonoma,",Consumer Discretionary,,"San Francisco, California",NYSE,USD
+WST,West Pharmaceutical Services,Healthcare,,"Exton, Pennsylvania",NYSE,USD
+WTW,Willis Towers Watson,Financial,,"London, United Kingdom",NYSE,USD
+WY,Weyerhaeuser,Real Estate,,"Seattle, Washington",NYSE,USD
+WYNN,Wynn Resorts,Consumer Discretionary,,"Paradise, Nevada",NYSE,USD
+XEL,Xcel Energy,Utilities,,"Minneapolis, Minnesota",NYSE,USD
+XOM,ExxonMobil,Energy,,"Irving, Texas",NYSE,USD
+XYL,Xylem,Industrial,,"White Plains, New York",NYSE,USD
+XYZ,"Block,",Financial,,none,NYSE,USD
+YUM,Yum! Brands,Consumer Discretionary,,"Louisville, Kentucky",NYSE,USD
+ZBH,Zimmer Biomet,Healthcare,,"Warsaw, Indiana",NYSE,USD
+ZBRA,Zebra Technologies,Technology,,"Lincolnshire, Illinois",NYSE,USD
+ZTS,Zoetis,Healthcare,,"Parsippany, New Jersey",NYSE,USD

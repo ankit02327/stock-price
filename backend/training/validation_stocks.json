@@ -1,0 +1,26 @@
+{
+  "us_stocks": [
+    "AAPL",
+    "MSFT", 
+    "GOOGL",
+    "AMZN",
+    "TSLA",
+    "META",
+    "NVDA",
+    "BRK.B",
+    "UNH",
+    "JNJ"
+  ],
+  "ind_stocks": [
+    "RELIANCE",
+    "TCS",
+    "INFY",
+    "HDFCBANK",
+    "ICICIBANK",
+    "KOTAKBANK",
+    "BHARTIARTL",
+    "ITC",
+    "SBIN",
+    "LT"
+  ]
+}
