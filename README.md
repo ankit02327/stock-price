@@ -70,7 +70,7 @@ npm --version
 #### 3. Clone and Setup
 ```powershell
 # Clone repository
-git clone https://github.com/123cs0011-iiitk/ml.git
+git clone https://github.com/ankit02327/stock-price.git
 cd ml
 
 # Backend setup
@@ -234,4 +234,5 @@ Check: `python status.py` | Test API: `curl http://localhost:5000/health`
 python status.py  # Check status
 python main.py    # Start backend
 npm run dev       # Start frontend
+
 ```
