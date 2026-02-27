@@ -108,7 +108,7 @@ npm --version
 #### 3. Clone and Setup
 ```bash
 # Clone repository
-git clone https://github.com/123cs0011-iiitk/ml.git
+git clone https://github.com/ankit02327/stock-price.git
 cd ml
 
 # Backend setup
@@ -150,7 +150,7 @@ npm --version
 #### 3. Clone and Setup
 ```bash
 # Clone repository
-git clone https://github.com/123cs0011-iiitk/ml.git
+git clone https://github.com/ankit02327/stock-price.git
 cd ml
 
 # Backend setup
@@ -236,3 +236,4 @@ python main.py    # Start backend
 npm run dev       # Start frontend
 
 ```
+
