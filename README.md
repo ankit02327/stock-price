@@ -171,7 +171,7 @@ npm install
 
 ### 1. Start Backend
 ```bash
-cd ml/backend
+cd backend
 venv\Scripts\activate  # Windows
 source venv/bin/activate  # macOS/Linux
 python main.py
@@ -179,7 +179,7 @@ python main.py
 
 ### 2. Start Frontend (New Terminal)
 ```bash
-cd ml/frontend
+cd frontend
 npm run dev
 ```
 
@@ -236,4 +236,5 @@ python main.py    # Start backend
 npm run dev       # Start frontend
 
 ```
+
 
