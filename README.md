@@ -7,7 +7,7 @@
 
 A comprehensive full-stack web application for real-time stock price analysis and prediction using 7 machine learning algorithms, supporting both US and Indian markets with live data fetching, historical analysis, and interactive visualization.
 
-## ✨ Key Features
+## Key Features
 
 - **7 ML Algorithms**: Linear Regression, Decision Tree, Random Forest, SVM (basic models) + KNN, ARIMA, Autoencoder (advanced models)
 - **Real-time Data**: US stocks via Finnhub API, Indian stocks via Upstox API with permanent storage fallback
@@ -17,31 +17,32 @@ A comprehensive full-stack web application for real-time stock price analysis an
 - **Smart Training**: Percentage-based predictions with proper price conversion and confidence scoring
 - **Standalone Trainers**: Independent training scripts for each model with progress tracking
 
-## 💱 Currency Conversion
+## Currency Conversion
 
 Automatic USD/INR conversion for all stocks:
 - **Sources**: Live forex APIs → Cached rates → Static rate (83.5 USD/INR)
 - **Display**: Original currency + converted price shown for all stocks
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 **Backend**: Flask 2.3.3, Python 3.8+, TensorFlow 2.20, scikit-learn 1.5.2, statsmodels 0.14.4, pandas, numpy  
 **Frontend**: React 18.3.1, TypeScript, Vite 6.4.0, Tailwind CSS, Radix UI, Recharts 2.15.2  
 **APIs**: Finnhub (US stocks), Upstox (Indian stocks), yfinance (historical data)
 
-## 🚀 Offline Mode First
+## Offline Mode First
 
 **The system works completely offline without any API keys!** This is the recommended way to get started.
 
 ### What Works Offline
-- ✅ **Stock Information**: 500 Indian + 501 US stocks (1,001 total) from permanent directory
-- ✅ **Historical Charts**: Complete 5-year OHLCV data (2020-2024)
-- ✅ **ML Predictions**: All trained models work with offline data (trained on 936 stocks with sufficient data)
-- ✅ **Search**: Full-text search across 1,001 stocks
-- ✅ **Technical Indicators**: 38 indicators calculated from historical data
-- ❌ **Live Prices**: Requires API keys (Finnhub for US, Upstox for India)
+- **Stock Information**: 500 Indian + 501 US stocks (1,001 total) from permanent directory
+- **Historical Charts**: Complete 5-year OHLCV data (2020-2024)
+- **ML Predictions**: All trained models work with offline data (trained on 936 stocks with sufficient data)
+- **Search**: Full-text search across 1,001 stocks
+- **Technical Indicators**: 38 indicators calculated from historical data
+### What doesn't Work Offline
+- **Live Prices**: Requires API keys (Finnhub for US, Upstox for India)
 
-## 📋 Installation Guide
+## Installation Guide
 
 ### Prerequisites
 - **Python**: 3.8 or higher
@@ -172,7 +173,7 @@ cd ../frontend
 npm install
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Start Backend
 ```bash
@@ -190,14 +191,10 @@ npm run dev
 
 Access: http://localhost:5173 (Backend: http://localhost:5000)
 
-## 📊 Data Structure
+## Data Structure
 
 **Indian Stocks (500)**: Use ISIN codes (INExxxxxxxx) at `permanent/ind_stocks/`  
 **US Stocks (501)**: Use ticker symbols (AAPL, MSFT, etc.) at `permanent/us_stocks/`
-
-## 🤖 Training Models
-
-**Status**: 4/7 trained (Linear Regression ✅, Decision Tree ✅, Random Forest ✅, SVM ✅)
 
 ```bash
 # Train: python backend/training/basic_models/{model}/trainer.py
@@ -205,19 +202,19 @@ Access: http://localhost:5173 (Backend: http://localhost:5000)
 # Details: See [Training Guide](documentation/TRAINING.md)
 ```
 
-## 🔌 Optional: Live Data Setup
+## Optional: Live Data Setup
 
 Add API keys to `backend/.env` for real-time data (Finnhub for US, Upstox for India).
 
 **Guides**: [Offline Mode](documentation/OFFLINE_MODE.md) | [Training Guide](documentation/TRAINING.md) | [Backend API](backend/README.md) | [Upstox Integration](documentation/UPSTOX_INTEGRATION.md)
 
-## 🔍 System Status
+## System Status
 
 Check: `python status.py` | Test API: `curl http://localhost:5000/health`
 
 **Working**: Data fetching, 5-year historical charts, search (1000+ stocks), currency conversion, interactive dashboard, 38 indicators, ML predictions (4/7 models trained)
 
-## 🛠️ Troubleshooting
+## Troubleshooting
 
 | Issue | Solution |
 |-------|----------|
@@ -226,14 +223,14 @@ Check: `python status.py` | Test API: `curl http://localhost:5000/health`
 | Python import errors | Activate venv: `venv\Scripts\activate` (Windows) or `source venv/bin/activate` (macOS/Linux) |
 | Out of memory | Close other apps, ensure 8GB+ RAM, train one model at a time |
 
-## ⚠️ Important Notes
+## Important Notes
 
 - **Educational Use**: This application is for learning and research purposes only
 - **Investment Disclaimer**: Stock predictions are inherently uncertain and should not be used as sole investment advice
 - **API Limits**: Finnhub (60 calls/min free), Upstox tokens expire daily
 - **Offline First**: System designed to work without internet or API keys
 
-## 🎯 Quick Commands
+## Quick Commands
 
 ```bash
 python status.py  # Check status
