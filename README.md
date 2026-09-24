@@ -12,9 +12,13 @@ A comprehensive full-stack web application for real-time stock price analysis an
 - **7 ML Algorithms**: Linear Regression, Decision Tree, Random Forest, SVM (basic models) + KNN, ARIMA, Autoencoder (advanced models)
 - **Real-time Data**: US stocks via Finnhub API, Indian stocks via Upstox API with permanent storage fallback
 - **Modern Dashboard**: React 18 + TypeScript + Tailwind CSS with interactive Recharts for 5-year historical analysis
+- **Advanced UI/UX**: Custom dark premium scrollbars, global API error toast notifications, keyboard shortcuts, and standardized number formatting
+- **Optimized Performance**: Gzip compression, faster JSON serialization with `orjson`, client-side caching, and yfinance connection pooling
 - **1000+ Stocks**: 1,001 total stocks available (501 US + 500 Indian), 936 used for training after filtering insufficient data
 - **Currency Support**: Real-time USD/INR conversion via forex-python
-- **Smart Training**: Percentage-based predictions with proper price conversion and confidence scoring
+- **Smart Training**: Log-transformed prices for linear regression, percentage-based predictions, and confidence scoring
+- **Advanced Indicators**: Golden Cross detection and RSI threshold tags integrated into the UI
+- **Docker Support**: Containerized backend for easy deployment and isolation
 - **Standalone Trainers**: Independent training scripts for each model with progress tracking
 
 ## Currency Conversion
@@ -174,6 +178,23 @@ touch .env
 # Frontend setup (new terminal)
 cd ../frontend
 npm install
+```
+
+### Docker Installation (Backend)
+
+The backend can be easily run using Docker:
+
+```bash
+# Clone repository
+git clone https://github.com/ankit02327/stock-price.git
+cd stock-price/backend
+
+# Create .env file with your configurations
+touch .env
+
+# Build and run the container
+docker build -t stock-price-backend .
+docker run -p 5000:5000 --env-file .env stock-price-backend
 ```
 
 ## Quick Start

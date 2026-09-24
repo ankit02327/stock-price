@@ -45,7 +45,10 @@ src/
 - Interactive historical charts (5-year data)
 - ML prediction visualization
 - Currency conversion (USD/INR)
-- Full-text search across 1,001 stocks
+- Full-text search across 1,001 stocks with keyboard shortcuts (Escape to clear)
+- Advanced Technical Indicators: Golden Cross detection and RSI threshold tags
+- Enhanced UI/UX: Custom dark premium scrollbars and standardized number formatting
+- Robust API Handling: Global error interceptor, toast notifications, and `AbortController` for request cancellation
 - Technical indicator calculations
 
 ## Configuration

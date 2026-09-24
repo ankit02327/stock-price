@@ -7,8 +7,10 @@ ML backend with 7 algorithms, automated training, RESTful API, and real-time dat
 - **7 ML Algorithms**: Linear Regression, Random Forest, Decision Tree, KNN, SVM, ARIMA, Autoencoders with automated training
 - **Technical Indicators**: 38 features from OHLC data (SMA, EMA, MACD, RSI, Bollinger Bands, ATR)
 - **Multi-horizon Forecasting**: 1d/1w/1m/1y/5y predictions via Flask 2.3.3 API with CORS
+- **Optimized Performance**: Gzip compression, faster JSON serialization with `orjson`, client-side caching headers, yfinance connection pooling, and strict API timeouts
 - **Real-time Data**: Finnhub (US) + Upstox (India) APIs with permanent storage fallback
 - **Status Tracking**: `python status.py` (table/JSON/simple formats) with USD/INR currency conversion
+- **Docker Support**: Built-in `Dockerfile` for easy containerized deployment
 
 ## 🚀 Quick Start
 
@@ -40,6 +42,12 @@ touch .env
 
 # Start the Flask server
 python main.py
+```
+
+### Setup via Docker (Alternative)
+```bash
+docker build -t stock-price-backend .
+docker run -p 5000:5000 --env-file .env stock-price-backend
 ```
 
 ### Verify Installation
