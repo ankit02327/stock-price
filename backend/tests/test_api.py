@@ -8,6 +8,7 @@ import pytest
 import json
 import os
 import sys
+import pandas as pd
 from unittest.mock import patch, MagicMock
 
 # Add backend to path
@@ -169,6 +170,35 @@ class TestHealthEndpoints:
         assert 'version' in data
         assert 'timestamp' in data
 
+class TestSearchEndpoint:
+    """Test case for GET /search"""
 
+    @patch('main.os.path.exists') #mock os.path.exists call
+    @patch('main.pd.read_csv') #mock the read_csv call
+    def test_search_endpoint(self, mock_read_csv, mock_exists, client):
+        """Mock csv read and test /search endpoint"""
+        mock_data = {
+            "symbol": ['AAPL', 'TSLA'],
+            "company_name": ['Apple', 'Tesla']
+        }
+        mock_read_csv.return_value = pd.DataFrame(mock_data)
+        mock_exists.return_value = True
+        response = client.get('/search?q=AA')
+        assert response.status_code == 200
+        data = json.loads(response.data)
+        assert data['success'] == True
+        assert len(data['data']) == 1  #only Apple gets through the filter
+        extracted_symbols = [entry['symbol'] for entry in data['data']]
+        assert 'AAPL' in extracted_symbols
+
+    def test_search_endpoint_default(self, client):
+        response = client.get('/search')
+        assert response.status_code == 200
+        data = json.loads(response.data)
+        assert data['success'] == True
+        assert data['data'] == []
+        
+
+    
 if __name__ == '__main__':
     pytest.main([__file__])
