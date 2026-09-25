@@ -173,8 +173,8 @@ class TestHealthEndpoints:
 class TestSearchEndpoint:
     """Test case for GET /search"""
 
-    @patch('main.os.path.exists') #mock os.path.exists call
-    @patch('main.pd.read_csv') #mock the read_csv call
+    @patch('main.os.path.exists')
+    @patch('main.pd.read_csv')
     def test_search_endpoint(self, mock_read_csv, mock_exists, client):
         """Mock csv read and test /search endpoint"""
         mock_data = {
@@ -186,8 +186,8 @@ class TestSearchEndpoint:
         response = client.get('/search?q=AA')
         assert response.status_code == 200
         data = json.loads(response.data)
-        assert data['success'] == True
-        assert len(data['data']) == 1  #only Apple gets through the filter
+        assert data['success'] is True
+        assert len(data['data']) == 1  # only Apple gets through the filter
         extracted_symbols = [entry['symbol'] for entry in data['data']]
         assert 'AAPL' in extracted_symbols
 
@@ -195,14 +195,13 @@ class TestSearchEndpoint:
         response = client.get('/search')
         assert response.status_code == 200
         data = json.loads(response.data)
-        assert data['success'] == True
+        assert data['success'] is True
         assert data['data'] == []
-        
+
+
 class TestNotFound:
     def test_route_not_found(self, client):
         response = client.get('/api/does-not-exist')
         assert response.status_code == 404
-
-    
 if __name__ == '__main__':
     pytest.main([__file__])
