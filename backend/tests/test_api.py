@@ -198,6 +198,10 @@ class TestSearchEndpoint:
         assert data['success'] == True
         assert data['data'] == []
         
+class TestNotFound:
+    def test_route_not_found(self, client):
+        response = client.get('/api/does-not-exist')
+        assert response.status_code == 404
 
     
 if __name__ == '__main__':
