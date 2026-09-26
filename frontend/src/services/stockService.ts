@@ -149,20 +149,25 @@ async function fetchWithTimeout(url: string, options: RequestInit = {}, timeout 
   }
 }
 
-let activeFetchController: AbortController | null = null;
+let activeFetchControllers: Record<string, AbortController> = {};
 
 export const stockService = {
-  cancelActiveRequests: () => {
-    if (activeFetchController) {
-      activeFetchController.abort();
-      activeFetchController = null;
+  cancelActiveRequests: (requestKey?: string) => {
+    if (requestKey) {
+      if (activeFetchControllers[requestKey]) {
+        activeFetchControllers[requestKey].abort();
+        delete activeFetchControllers[requestKey];
+      }
+    } else {
+      Object.values(activeFetchControllers).forEach(controller => controller.abort());
+      activeFetchControllers = {};
     }
   },
   
-  getNewAbortSignal: () => {
-    stockService.cancelActiveRequests();
-    activeFetchController = new AbortController();
-    return activeFetchController.signal;
+  getNewAbortSignal: (requestKey: string = 'default') => {
+    stockService.cancelActiveRequests(requestKey);
+    activeFetchControllers[requestKey] = new AbortController();
+    return activeFetchControllers[requestKey].signal;
   },
 
   // Get stock metadata quickly (without live price)
@@ -181,7 +186,7 @@ export const stockService = {
     }
 
     try {
-      const signal = stockService.getNewAbortSignal();
+      const signal = stockService.getNewAbortSignal('stockInfo');
       const response = await fetchWithTimeout(`${BACKEND_BASE_URL}/stock_info?symbol=${encodeURIComponent(cleanSymbol)}`, { signal });
 
       if (!response.ok) {
@@ -231,7 +236,7 @@ export const stockService = {
     }
 
     try {
-      const signal = stockService.getNewAbortSignal();
+      const signal = stockService.getNewAbortSignal('livePrice');
       const response = await fetchWithTimeout(`${BACKEND_BASE_URL}/live_price?symbol=${encodeURIComponent(cleanSymbol)}`, { signal });
 
       if (!response.ok) {
